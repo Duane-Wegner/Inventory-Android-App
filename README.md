@@ -21,7 +21,8 @@ This is a simple Android application for managing an inventory of items. Users c
 
 ## 📸 Screenshots
 
-> _Coming soon!_
+![image](https://github.com/user-attachments/assets/7ee46739-b099-450c-82c5-b9f1e3337e6b)
+
 
 ## 🚀 Getting Started
 
