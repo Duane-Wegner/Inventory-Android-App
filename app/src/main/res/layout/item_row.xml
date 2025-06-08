@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_row_background"
+    android:gravity="center_vertical"
+    android:padding="8dp">
+
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:scrollbars="none"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text="@string/item_name"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/minusBtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="@string/minus_item"
+        android:textColor="@color/white"
+        android:layout_marginEnd="8dp" />
+
+    <HorizontalScrollView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/quantityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/quantity"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:ellipsize="none"
+            android:textSize="20sp" />
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/plusBtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="@string/additional_item"
+        android:textColor="#ffffff"
+        android:backgroundTint="@color/green"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_item"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/yellow"
+        android:layout_marginEnd="8dp"/>
+</LinearLayout>

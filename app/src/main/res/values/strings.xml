@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Inventory App - Duane Wegner</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="item">Item</string>
+    <string name="qty">Quantity</string>
+    <string name="increment"> </string>
+    <string name="decrement"> </string>
+    <string name="delete">Delete</string>
+    <string name="add_item">Add Item</string>
+    <string name="inventory">Inventory</string>
+    <string name="account_icon_desc">User account icon</string>
+    <string name="checking_sms_permission">Checking SMS permission...</string>
+    <string name="request_sms_permission">Request SMS Permission</string>
+    <string name="item_name">Item Name</string>
+    <string name="minus_item">−</string>
+    <string name="quantity">0</string>
+    <string name="additional_item">+</string>
+    <string name="delete_item">X</string>
+    <string name="inventoryTitle">Inventory</string>
+    <string name="logout_btn">Logout</string>
+
+</resources>
