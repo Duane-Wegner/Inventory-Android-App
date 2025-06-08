@@ -5,19 +5,19 @@ This is a simple Android application for managing an inventory of items. Users c
 ## ✨ Features
 
 - 🔐 Login screen to access inventory
-- 📦 Inventory list with:
+- 🧾 Inventory list with:
   - Item name and quantity
   - Buttons to increment/decrement quantity
   - Option to delete or add items
-- 📱 Clean, user-friendly UI built with XML and Java
+- ✨ Clean, user-friendly UI built with XML and Java
 - 🗃️ Persistent storage using SQLite database
 
 ## 🧱 Built With
 
-- **Java**
-- **Android SDK**
-- **XML** for layout design
-- **SQLite** for data persistence
+- ☕ **Java**
+- 🤖 **Android SDK**
+- 🗒️ **XML** for layout design
+- 🗄️ **SQLite** for data persistence
 
 ## 📸 Screenshots
 
@@ -44,8 +44,8 @@ inventoryapp
 
 ## 🛠 Future Improvements
 
-- Enable editing item names
-- UI/UX enhancements
+- ✏️ Enable editing item names
+- 🎨 UI/UX enhancements
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
